@@ -1,0 +1,395 @@
+@media ( max-width:  1200px)
+    header 
+        .menu_item
+            padding-right: 20px !important
+
+            .menu_link
+                font-size: 13px
+
+    .promo
+        .promoHeader
+            font-size: 55px
+
+
+    .mobile
+        .item
+            width: 300px
+                   
+
+@media (max-width: 991px)
+    header 
+        .menu_item
+            padding-right: 9px !important
+
+            .menu_link
+                font-size: 10px
+
+        .subheader
+            .subheaderLogo
+                img
+                    width: 100%
+
+            .subheaderOfficial
+                font-size: 11px
+
+            .subheaderPhone
+                font-size: 20px !important
+
+            .subheaderBtn
+                margin-top: 24px
+                width: 100%
+                height: 40px
+    
+    .promo
+        .promoHeader
+            font-size: 45px
+        
+        .promoSubheader
+            font-size: 25px
+
+    .work
+        .wrapperItem
+            flex-direction: column
+            align-items: center
+
+            .wrapperImg
+                margin-right: 0
+
+            .wrapperSubheader
+                margin-top: 15px
+
+    .mobile
+        .item
+            width: 225px
+
+            .itemTitle
+                font-size: 18px
+
+    .footer
+        .social
+            .socialMenuLeft
+                bottom: 20px 
+
+@media (max-width: 767px)
+    header
+        .menu
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 0
+            left: -100%
+            width: 50%
+            height: 100vh
+            padding: 20px 15px
+            background-color: rgba(0, 0, 0, .8)
+            transition: 0.8s all
+
+            .menu_item
+                border: none
+                padding-right: 0
+                margin: 10px 0
+
+                .menu_link
+                    font-size: 12px
+
+        .menuActive
+            left: 0
+
+        .hamburger
+            display: block
+            position: absolute
+            right: 10px
+            top: 50%
+            transform: translateY(-50%)
+            width: 30px
+
+            span
+                display: block
+                width: 100%
+                height: 2px
+                background-color: #fff
+                margin-bottom: 5px
+                transition: 0.5s all
+                &:last-child
+                    margin-bottom: 0
+                
+        .hamburgerActive
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+
+        .subheader
+            .xs-hidden
+                display: none
+            .xs-visible
+                display: block
+
+            .subheaderBtn
+                display: block
+                width: 90%
+                height: 35px
+                margin: 0 auto
+                margin-top: 15px
+                font-size: 12px
+
+            .subheaderPhone
+                margin-top: 11px
+                text-align: center
+                font-size: 17px !important
+
+    .promo
+        padding: 150px 0 100px 0
+
+        .promoHeader
+            font-size: 40px
+
+        .promoSubheader
+            font-size: 20px
+
+        .promoDesc
+            font-size: 14px
+
+        .promoBtn
+            width: 241px
+            height: 57px
+            margin: 100px auto 0 auto
+
+    .choice
+        .secondElement
+            font-size: 32px
+
+    .map
+        min-height: 450px
+
+    footer
+        min-height: 250px
+
+@media (max-width: 380px)
+    header
+        height: 30px
+
+        nav
+            height: 30px
+
+        .menuActive
+            width: 85%
+
+        .subheader
+            height: 60px
+            top: 30px
+
+            .subheaderOfficial
+                display: none
+
+            .subheaderLogo
+                margin-top: 17px
+
+            .subheaderPhone
+                margin-top: 8px
+                font-size: 15px !important
+
+            .subheaderBtn
+                height: 24px
+                margin-top: 7px
+                font-size: 10px
+
+        .hamburger
+            width: 25px
+
+            span
+                margin-bottom: 4px
+
+        .hamburgerActive
+            span
+                margin-bottom: -2px
+
+    .promo
+        min-height: 350px
+        padding: 110px 0 35px 0
+
+        .promoHeader
+            font-size: 35px
+            line-height: 39px
+
+        .promoSubheader
+            line-height: 25px
+            margin-top: 30px
+
+        .promoDesc
+            display: none
+
+        .promoBtn
+            width: 210px
+            height: 50px
+            margin-top: 70px
+
+    .work
+        min-height: 2466px
+        padding: 22px 0 50px 0
+
+        .firstElement
+            width: 115px
+            height: 26px
+
+        .secondElement
+            font-size: 15px
+            margin-top: 10px
+
+        .wrapperItem
+            .wrapperImg
+                widhth: 100px
+                height: 100px
+
+            .wrapperText
+                width: 100%
+                margin-top: 25px
+
+                .wrapperSubheader
+                    margin-top: 0
+                    font-size: 15px
+
+                .wrapperDesck
+                    font-size: 15px
+
+    .mobile
+        min-height: 1885px
+        padding: 22px 0 14px 0
+
+        .firstElement
+            width: 115px
+            height: 26px
+
+        .secondElement
+            font-size: 16px
+            margin-top: 12px
+
+        .thirdElement
+            font-size: 14px
+            margin-top: 12px
+
+        .item
+            width: 100%
+            margin-bottom: 30px
+
+    .choice
+        min-height: 390px
+        padding: 25px 0 35px 0
+
+        .firstElement
+            width: 115px
+            height: 26px
+
+        .secondElement
+            display: none
+        
+        .thirdElement
+            display: none
+
+        .choiceText
+            margin-top: 232px
+
+    .require
+        min-height: 1050px
+        padding: 22px 0 26px 0
+
+        .firstElement
+            width: 115px
+            height: 26px
+
+        .secondElement
+            font-size: 16px
+            margin-top: 14px
+
+        .wrapperBlock
+            margin-top: 22px
+            margin-bottom: 15px
+
+            .requireHeader
+                font-size: 16px
+            
+            .requireList
+                padding-left: 32px
+                line-height: 19px
+
+                li
+                    font-size: 14px
+
+            .requireDesc
+                font-size: 14px
+
+    .map
+        min-height: 360px
+        padding: 24px 0 30px 0
+
+        .firstElement
+            width: 79px
+            height: 26px
+
+        .secondElement
+            font-size: 16px
+            margin-top: 14px
+
+        .thirdElement
+            font-size: 14px
+            margin-top: 10px
+
+        .mapCity
+            font-size: 15px
+            bottom: 30px
+            left: 20%
+            webkit-transform: translateX(0)
+            transform: translateX(0)
+
+    footer
+        min-height: 280px
+
+        .container
+            .line
+                width: 90%
+                height: 6px
+
+            .menuHeader
+                .menu_item
+                    font-size: 12px 
+                    margin-right: 16px 
+                    font-weight: 400 
+
+                .menu
+                    padding-left: 0
+
+            .menuFooter
+                .menu
+                    padding-left: 0
+                    flex-wrap: wrap
+                    justify-content: space-between
+                    margin: 16px 20px
+
+            .language
+                margin-top: 0
+
+        .social
+            .socialMenu
+                bottom: 64px
+                left: 50%
+                transform: translateX(-50%)
+
+        .onlineStore
+            .socialMenu
+                left: 50%
+                transform: translateX(-50%)
+
+    .line
+        display: none
+                
+
+
+
+
+            
+                          
