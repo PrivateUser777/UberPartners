@@ -1,2 +1,1 @@
-# UberPartners
-12345
+Используемые технологии: HTML5, CSS3, JavaScript, Bootstrap4, Scss.
